@@ -5,14 +5,22 @@ import EnquiryForm from './pages/EnquiryForm';
 import Navbar from './components/navbar/Navbar';
 import { Box, ChakraProvider } from '@chakra-ui/react';
 import theme from './theme';  // Import the custom theme
-import Home from './components/Home';
+import Home from './pages/Home';
+import Galary from './pages/Galary';
+import Masterplan from './pages/Masterplan';
+import Clubhouse from './pages/Clubhouse';
+import Allroutes from './routes/Allroutes';
 
 const App = () => {
   return (
     <ChakraProvider theme={theme}>
       <Box>
+      
         <Navbar />
         <Home/>
+        <Galary/>
+        <Masterplan/>
+        <Clubhouse/>
         <EnquiryForm />
         <LocateUs />
 

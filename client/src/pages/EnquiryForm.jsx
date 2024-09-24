@@ -28,7 +28,7 @@ const EnquiryForm = () => {
   };
 
   return (
-    <Box color={'grey'} maxWidth="600px" mx="auto" p={4} borderWidth={1} borderRadius="lg" boxShadow="md">
+    <Box id='enquiry' color={'grey'} maxWidth="600px" mx="auto" p={4} borderWidth={1} borderRadius="lg" boxShadow="md">
       <form onSubmit={handleFormSubmit}>
         <FormControl id="name" mb={4} isRequired>
           <FormLabel>Name:</FormLabel>

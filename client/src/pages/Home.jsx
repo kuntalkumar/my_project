@@ -3,7 +3,7 @@ import { Flex, Box, Text } from '@chakra-ui/react';
 
 const Home = () => {
   return (
-    <Box
+    <Box id="home"
       backgroundImage='url("https://images.pexels.com/photos/533769/pexels-photo-533769.jpeg")'
       backgroundSize='cover'
       backgroundPosition='center'
@@ -17,8 +17,8 @@ const Home = () => {
       alignItems='center'
       color='white'  // Change text color for better visibility on background
     >
-      <Box textAlign='center' mb={4}>
-        <Text fontSize='3xl' w={500} fontWeight='bold'>
+      <Box textAlign='center'  w={"45%"} mb={4}>
+        <Text fontSize='3xl' fontWeight='bold'>
           Embrace Endless Natural Beauty Right at Your Doorstep
         </Text>
         <Text fontSize='lg'>

@@ -1,10 +1,12 @@
+import { Text } from '@chakra-ui/react'
 import React from 'react'
 
 const LocateUs = () => {
   return (
-    <div>
+    <div id='location'>
 
-    <h3>Locate Us</h3>
+<Text fontSize="5xl" fontWeight={"bold"} textAlign="center" color="green" mb={4}>
+Locate Us</Text>
 
     <div>
     <div>
