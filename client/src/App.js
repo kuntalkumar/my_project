@@ -24,6 +24,10 @@ const App = () => {
       <Box>
         <Navbar setIsOpen={setIsOpen} isOpen={isOpen} />
         <Home />
+
+
+
+
         <Flex 
           position="fixed" 
           bottom={4} 
@@ -37,7 +41,7 @@ const App = () => {
 
 bg="white" 
             _hover={{ bg: "teal" }} 
-            onClick={() => setIsOpen(true)} 
+            // onClick={() => setIsOpen(true)} 
             color="black"
             variant="solid"
             cursor="pointer"
@@ -52,7 +56,7 @@ bg="white"
 
             bg="white" 
             _hover={{ bg: "teal" }} 
-            onClick={() => setIsOpen(true)} 
+            // onClick={() => setIsOpen(true)} 
             color="black"
             variant="solid"
             cursor="pointer"
@@ -71,7 +75,7 @@ bg="white"
           <Button 
             w={"65%"}
 
-bg="white" 
+          bg="white" 
             _hover={{ bg: "teal" }} 
             onClick={() => setIsOpen(true)} 
             color="black"
@@ -79,7 +83,9 @@ bg="white"
             cursor="pointer">
             <img src="https://www.svgrepo.com/show/144817/investigate.svg" alt="" style={{width:"25px"}}/>
           </Button>
+          
         </Flex>
+
 
 
 

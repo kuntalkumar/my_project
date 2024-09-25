@@ -12,7 +12,7 @@ const BottomSection = () => {
       </Flex>
 
       <Text textAlign="center"  p={2}>
-        Ⓒ 2024 Rewild Retreats LLP. All rights reserved.
+        Ⓒ 2024 Kuntal Retreats LLP. All rights reserved.
       </Text>
     </Flex>
   );
