@@ -15,7 +15,7 @@ const Home = () => {
       justifyContent='space-between'
       padding={10}
       alignItems='center'
-      color='white'  // Change text color for better visibility on background
+      color='yellow.800'  // Change text color for better visibility on background
     >
       <Box textAlign='center'  w={"45%"} mb={4}>
         <Text fontSize='3xl' fontWeight='bold'>

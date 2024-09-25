@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, FormControl, FormLabel, Input, Button, useToast } from '@chakra-ui/react';
+import { Box, FormControl, FormLabel, Input, useToast } from '@chakra-ui/react';
 import emailjs from 'emailjs-com';
 
 const EnquiryForm = () => {
@@ -28,8 +28,8 @@ const EnquiryForm = () => {
   };
 
   return (
-    <Box id='enquiry' color={'grey'} maxWidth="600px" mx="auto" p={4} borderWidth={1} borderRadius="lg" boxShadow="md">
-      <form onSubmit={handleFormSubmit}>
+    <Box id='enquiry' >
+      <form id="enquiry-form" onSubmit={handleFormSubmit}>
         <FormControl id="name" mb={4} isRequired>
           <FormLabel>Name:</FormLabel>
           <Input type="text" name="name" />
@@ -44,10 +44,6 @@ const EnquiryForm = () => {
           <FormLabel>Email:</FormLabel>
           <Input type="email" name="email" />
         </FormControl>
-
-        <Button colorScheme="blue" type="submit" width="full">
-          Send
-        </Button>
       </form>
     </Box>
   );

@@ -27,8 +27,8 @@ Locate Us</Text>
             //   height="450"
             //   style="border: 0"
             //   loading="lazy"
-            allowfullscreen
-            referrerpolicy="no-referrer-when-downgrade"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
             src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCJ50P3i-sk5hbxpI4mwppCAkio4ATadi0
                     &q=${"kelsa"}`}
           ></iframe></div>

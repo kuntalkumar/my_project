@@ -6,22 +6,64 @@ import { faFacebookF, faInstagram, faWhatsapp } from '@fortawesome/free-brands-s
 
 const TopSection = () => {
   return (
-    <Flex color={'silver'} justifyContent={'space-around'} alignItems={'center'} p={10}>
+    <Flex color={'grey'} justifyContent={'space-around'} alignItems={'center'} p={10}>
       <div>
         <Text fontSize="lg" fontWeight="bold">MAIL</Text>
-        <Text color={'green'}>sales@example.co.in</Text>
+
+        <a
+            className="contact-button"
+            href="mailto:kkuntal75@gmail.com"
+          >
+      <Text color={'green'}>kkuntal75@gmail.com</Text>  
+            </a>
       </div>
       <div>
         <Text fontSize="lg" fontWeight="bold">CALL</Text>
-        <Text color={'green'}>9090909090</Text>
+        <a
+            className="contact-button"
+            href="tel:+917908295742"
+          >
+        <Text color={'blue'}>7908295742</Text>
+        </a>
       </div>
       <div>
         <Text fontSize="lg" fontWeight="bold">CONNECT AND FOLLOW</Text>
         <Flex justifyContent={'space-around'}>
+
+
+        <a
+    href="https://wa.me/917908295742"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+
           <FontAwesomeIcon icon={faWhatsapp} size="xl" style={{ margin: '0 8px' }} color='green' />
+  </a>
+          <a
+            className="contact-button"
+            href="tel:+917908295742"
+          >
           <FontAwesomeIcon icon={faPhone} size="lg" style={{ margin: '0 8px' }} color='blue'/>
+          </a>
+
+
+   <a
+    href="https://www.facebook.com/profile.php?id=100006958637782"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
           <FontAwesomeIcon icon={faFacebookF} size="lg" style={{ margin: '0 8px' }} color='blue'/>
+</a>
+
+
+
+   <a
+    href="https://www.instagram.com/i_am_kkuntal/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
           <FontAwesomeIcon icon={faInstagram} size="lg" style={{ margin: '0 8px' }} color='brown' />
+          </a>
         </Flex>
       </div>
     </Flex>

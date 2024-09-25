@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Text } from '@chakra-ui/react';
+import { Center, Text } from '@chakra-ui/react';
 
 const Galary = () => {
   const arr = [
@@ -55,6 +55,14 @@ const Galary = () => {
           </div>
         ))}
       </Slider>
+      <Text fontSize="2xl" fontWeight={"bold"} textAlign="center" color="green" mb={4} mt={5}>
+      Where Every View is a Scenic Escape
+      </Text>
+      <Text color={'green'} justifyContent={"center"} align={'center'}>
+      Redefine your weekends and choose the luxury of being one with nature! With three sides covered by a 27,000 acre lush forest, a hillock within the project, a stream flowing through its centre and the melody of birds chirping around you,
+      ReWild Doddaballapura brings you close to nature whilst letting it bask in its natural glory. Just 40 minutes away from North Bengaluru, this hidden gem awaits you.
+      </Text>
+
     </div>
   );
 };

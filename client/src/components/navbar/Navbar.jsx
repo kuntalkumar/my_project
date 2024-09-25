@@ -2,31 +2,35 @@ import React from 'react';
 import { Box, Flex, Button } from '@chakra-ui/react';
 import { Link as ScrollLink } from 'react-scroll';
 
-const Navbar = () => {
+const Navbar = ({setIsOpen,isOpen}) => {
+// console.log(isOpen)
   return (
-    <Box bg="green.600" p={4} color="white">
+    <Box bg="green.700" p={4} color="white"   fontSize={"lg"} pt={2}>
       <Flex justify="space-between" align="center">
-        <Box fontWeight="bold" fontSize="lg">
-          <ScrollLink to="home" smooth={true} duration={500} style={{ textDecoration: 'none' }}>
+        <Box fontSize="lg" fontWeight="bold">
+          <ScrollLink to="home" smooth={true} duration={500} style={{ textDecoration: 'none',cursor:"pointer" }} >
             Logo
           </ScrollLink>
         </Box>
+<Flex justifyContent={'space-around'} gap={5}>
 
-        <ScrollLink to="gallery" smooth={true} duration={500} style={{ textDecoration: 'none', margin: '0 8px' }}>
+        <ScrollLink to="gallery" smooth={true} duration={500} style={{ textDecoration: 'none',  margin: '0 8px' ,cursor:"pointer" }}>
           Gallery
         </ScrollLink>
-        <ScrollLink to="master" smooth={true} duration={500} style={{ textDecoration: 'none', margin: '0 8px' }}>
+        <ScrollLink to="master" smooth={true} duration={500} style={{ textDecoration: 'none', margin: '0 8px',cursor:"pointer"  }}>
           Master Plan
         </ScrollLink>
-        <ScrollLink to="location" smooth={true} duration={500} style={{ textDecoration: 'none', margin: '0 8px' }}>
+        <ScrollLink to="location" smooth={true} duration={500} style={{ textDecoration: 'none', margin: '0 8px',cursor:"pointer"  }}>
           Location
         </ScrollLink>
 
-        <Button bg="#e6e4e3" color={'black'} variant="solid">
-          <ScrollLink to="enquiry" smooth={true} duration={500} style={{ textDecoration: 'none', color: 'black' }}>
+        <Button bg="#e6e4e3" onClick={() => setIsOpen(true)} color={'black'} variant="solid" cursor={'pointer'}>
+        {/* <ScrollLink to="enquiry" smooth={true} duration={500} style={{ textDecoration: 'none', color: 'black' }}> */}
             ENQUIRY
-          </ScrollLink>
+          {/* </ScrollLink> */}
         </Button>
+        </Flex>
+
       </Flex>
     </Box>
   );
