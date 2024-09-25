@@ -6,7 +6,7 @@ const theme = extendTheme({
     global: {
       // This will set the background color for the entire application
       body: {
-        bg: 'gray.100', // Change this to the color you want
+        bg: "#b9edc7", // Change this to the color you want
       },
     },
   },

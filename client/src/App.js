@@ -33,7 +33,9 @@ const App = () => {
           gap={2}
         >
         <Button 
-            bg="" 
+           w={"65%"}
+
+bg="white" 
             _hover={{ bg: "teal" }} 
             onClick={() => setIsOpen(true)} 
             color="black"
@@ -67,14 +69,15 @@ const App = () => {
 
 
           <Button 
-          w={"65%"}
-            bg="grey" 
+            w={"65%"}
+
+bg="white" 
             _hover={{ bg: "teal" }} 
             onClick={() => setIsOpen(true)} 
             color="black"
             variant="solid"
             cursor="pointer">
-            <img src="https://www.svgrepo.com/show/144817/investigate.svg" alt="" style={{width:"20px"}}/>
+            <img src="https://www.svgrepo.com/show/144817/investigate.svg" alt="" style={{width:"25px"}}/>
           </Button>
         </Flex>
 
