@@ -34,8 +34,8 @@ const Home = () => {
         bottom={4}
         color=''
       >
-        <Box>LOGO</Box>
-        <Box textAlign='right'>
+            <img src="https://www.svgrepo.com/show/476986/forest.svg" alt="" style={{borderRadius:"5px",width:"50px"}} />
+            <Box textAlign='right'>
           <Text>Plot size 5,000 - 15,000 sq.ft</Text>
           <Text>INR 1.25 Cr onwards</Text>
         </Box>

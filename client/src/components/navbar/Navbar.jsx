@@ -9,7 +9,7 @@ const Navbar = ({setIsOpen,isOpen}) => {
       <Flex justify="space-between" align="center">
         <Box fontSize="lg" fontWeight="bold">
           <ScrollLink to="home" smooth={true} duration={500} style={{ textDecoration: 'none',cursor:"pointer" }} >
-            Logo
+            <img src="https://www.svgrepo.com/show/476986/forest.svg" alt="" style={{borderRadius:"5px",width:"50px"}} />
           </ScrollLink>
         </Box>
 <Flex justifyContent={'space-around'} gap={5}>
