@@ -14,7 +14,7 @@ const TopSection = () => {
             className="contact-button"
             href="mailto:kkuntal75@gmail.com"
           >
-      <Text color={'green'}>kkuntal75@gmail.com</Text>  
+      <Text color={'green'} justifyContent={'center'} mt={4}>kkuntal75@gmail.com</Text>  
             </a>
       </div>
       <div>
@@ -23,12 +23,12 @@ const TopSection = () => {
             className="contact-button"
             href="tel:+917908295742"
           >
-        <Text color={'blue'}>7908295742</Text>
+        <Text color={'blue'} mt={4}>7908295742</Text>
         </a>
       </div>
       <div>
         <Text fontSize="lg" fontWeight="bold">CONNECT AND FOLLOW</Text>
-        <Flex justifyContent={'space-around'}>
+        <Flex justifyContent={'space-around'} m={4}>
 
 
         <a
@@ -62,7 +62,7 @@ const TopSection = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-          <FontAwesomeIcon icon={faInstagram} size="lg" style={{ margin: '0 8px' }} color='brown' />
+          <FontAwesomeIcon icon={faInstagram} size="lg"  style={{ margin: '0 8px' }} color='brown' />
           </a>
         </Flex>
       </div>
