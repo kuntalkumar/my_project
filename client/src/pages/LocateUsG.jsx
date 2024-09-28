@@ -30,7 +30,7 @@ Locate Us</Text>
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
             src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCJ50P3i-sk5hbxpI4mwppCAkio4ATadi0
-                    &q=${"kelsa"}`}
+                    &q=${"TerraGreen Farms"}`}
           ></iframe></div>
  </div>
     </div>

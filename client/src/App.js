@@ -97,9 +97,9 @@ bg="white"
         <Masterplan />
         <Clubhouse />
         <Facilities />
-        <LocateUs />
+        {/* <LocateUs /> */}
 
-        {/* <LocateUsG/> */}
+        <LocateUsG/>
         <Footer />
 
         {/* Modal for EnquiryForm */}

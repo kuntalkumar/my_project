@@ -36,11 +36,11 @@ const LocateUs = () => {
                 View on Google Maps
                 <br />
                 <a 
-                  href="https://www.google.com/maps/place/Kelsa/@12.9893194,77.590328,808m/data=!3m1!1e3!4m6!3m5!1s0x3bae166ed3914069:0x5636310a841d2b07!8m2!3d12.9893142!4d77.5929029!16s%2Fg%2F11j23ss24p?authuser=0&entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" 
+                  href="https://www.google.com/maps/place/TerraGreen+Farms/@13.6756263,77.8335924,806m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bb18d81512fcdb5:0x4d1017676ddc116!8m2!3d13.6756263!4d77.8335924!16s%2Fg%2F11sbg6t1v1?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  Kelsa.io  
+                 TerraGreen Farms 
                 </a>  
                 {/* Change the name and the and google map loacation */}
               </span>
