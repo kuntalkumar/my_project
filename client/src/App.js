@@ -15,14 +15,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import LocateUsG from './pages/LocateUsG';
-
+import "./helper/style.css"
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
   const onClose = () => setIsOpen(false);
 
   return (
     <ChakraProvider theme={theme}>
-      <Box>
+      <Box gap={10}>
         <Navbar setIsOpen={setIsOpen} isOpen={isOpen} />
         <Home />
 
@@ -36,11 +36,12 @@ const App = () => {
           flexDirection="column" 
           alignItems="center" 
           gap={2}
-        >
+          zIndex="1500"  
+          >
         <Button 
            w={"65%"}
 
-bg="white" 
+            bg="#ede1f5" 
             _hover={{ bg: "teal" }} 
             // onClick={() => setIsOpen(true)} 
             color="black"
@@ -55,7 +56,7 @@ bg="white"
           <Button 
                     w={"65%"}
 
-            bg="white" 
+            bg="#ede1f5" 
             _hover={{ bg: "teal" }} 
             // onClick={() => setIsOpen(true)} 
             color="black"
@@ -74,15 +75,15 @@ bg="white"
 
 
           <Button 
-            w={"65%"}
+             w={"65%"}
 
-          bg="white" 
+             bg="#ede1f5" 
             _hover={{ bg: "teal" }} 
             onClick={() => setIsOpen(true)} 
             color="black"
             variant="solid"
             cursor="pointer">
-            <img src="https://www.svgrepo.com/show/144817/investigate.svg" alt="" style={{width:"25px"}}/>
+            <img src="https://www.svgrepo.com/show/308408/article-story-report-piece.svg" alt="" style={{width:"50px"}}/>
           </Button>
           
         </Flex>
@@ -97,9 +98,14 @@ bg="white"
         <Masterplan />
         <Clubhouse />
         <Facilities />
-        {/* <LocateUs /> */}
+        <div style={{display:"flex",justifyContent:"center",margin:"20px"}} >
+        <Button  onClick={() => setIsOpen(true)} bg={'#074f07'} _hover={{bg:"#011701"}} variant="solid" cursor={'pointer'}>
+          Download Brochure
+          </Button>
+        </div>
+        <LocateUs />
 
-        <LocateUsG/>
+        {/* <LocateUsG/> */}
         <Footer />
 
         {/* Modal for EnquiryForm */}

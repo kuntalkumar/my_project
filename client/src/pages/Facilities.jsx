@@ -3,6 +3,10 @@ import React from 'react';
 
 const Facilities = () => {
   return (
+    <Box>
+<Flex justifyContent={'center'} className='defaultPageParagraph' fontSize={"2xl"} fontWeight={"bold"}>
+Open Air Amenities & Experiences
+</Flex>
     <Flex wrap="wrap" justify="space-around" align="center" m={12}>
       {/* First Box */}
       <Box 
@@ -21,7 +25,8 @@ const Facilities = () => {
           objectFit="contain" 
           mx="auto"
         />
-        <Text color="green" mt={2}>Forest Trails</Text>
+        <Text className='defaultPageParagraph' mt={2}>
+        Forest Trails</Text>
       </Box>
       
       {/* Second Box */}
@@ -41,7 +46,8 @@ const Facilities = () => {
           objectFit="contain" 
           mx="auto"
         />
-        <Text color="green" mt={2}>Stream Front Promenade</Text>
+        <Text className='defaultPageParagraph' mt={2}>
+        Stream Front Promenade</Text>
       </Box>
       
       {/* Third Box */}
@@ -61,7 +67,8 @@ const Facilities = () => {
           objectFit="contain" 
           mx="auto"
         />
-        <Text color="green" mt={2}>7 Water Bodies</Text>
+        <Text className='defaultPageParagraph' mt={2}>
+        7 Water Bodies</Text>
       </Box>
       
       {/* Fourth Box */}
@@ -81,7 +88,8 @@ const Facilities = () => {
           objectFit="contain" 
           mx="auto"
         />
-        <Text color="green" mt={2}>Sunrise & Sunset View Points</Text>
+        <Text className='defaultPageParagraph' mt={2}>
+        Sunrise & Sunset View Points</Text>
       </Box>
       
       {/* Fifth Box */}
@@ -101,7 +109,8 @@ const Facilities = () => {
           objectFit="contain" 
           mx="auto"
         />
-        <Text color="green" mt={2}>Sand Volleyball Court</Text>
+        <Text className='defaultPageParagraph' mt={2}>
+        Sand Volleyball Court</Text>
       </Box>
       
       {/* Sixth Box */}
@@ -121,9 +130,11 @@ const Facilities = () => {
           objectFit="contain" 
           mx="auto"
         />
-        <Text color="green" mt={2}>Vegetable farming</Text>
+        <Text className='defaultPageParagraph' mt={2}>
+        Vegetable farming</Text>
       </Box>
     </Flex>
+    </Box>
   )
 }
 

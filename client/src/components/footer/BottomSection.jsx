@@ -3,12 +3,12 @@ import { Box, Flex, Text } from '@chakra-ui/react';
 
 const BottomSection = () => {
   return (
-    <Flex bg="green.700" justify="space-between"  p={2} >
-      <Flex justify="space-between"  >
-        <Text as="a" href="#" _hover={{ textDecoration: 'underline' }} p={2}>Disclaimer</Text>
-        <Text as="a" href="#" _hover={{ textDecoration: 'underline' }} p={2}>Privacy Policy</Text>
-        <Text as="a" href="#" _hover={{ textDecoration: 'underline' }} p={2}>Terms of Use</Text>
-        <Text as="a" href="#" _hover={{ textDecoration: 'underline' }}p={2}>Contact</Text>
+    <Flex bg="#3A5A40" justify="space-between"  p={2} pt={"25px"} pb={"10px"}>
+      <Flex justify="space-between" gap={5} >
+        <Text as="a" href="" _hover={{ textDecoration: 'underline' }} p={2}>Disclaimer</Text>
+        <Text as="a" href="" _hover={{ textDecoration: 'underline' }} p={2}>Privacy Policy</Text>
+        <Text as="a" href="" _hover={{ textDecoration: 'underline' }} p={2}>Terms of Use</Text>
+        <Text as="a" href="" _hover={{ textDecoration: 'underline' }}p={2}>Contact</Text>
       </Flex>
 
       <Text textAlign="center"  p={2}>

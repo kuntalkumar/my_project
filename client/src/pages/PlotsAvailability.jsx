@@ -22,7 +22,8 @@ const PlotsAvailability = () => {
             objectFit="contain"
             mx="auto"
           />
-          <Text color="green" mt={2} fontSize={{ base: 'sm', md: 'md' }}>54 Acres</Text>
+          <Text className='defaultPageParagraph' mt={2} fontSize={{ base: 'sm', md: 'md' }}>
+          54 Acres</Text>
         </Box>
         
         {/* Second Image */}
@@ -42,7 +43,8 @@ const PlotsAvailability = () => {
             objectFit="contain"
             mx="auto"
           />
-          <Text color="green" mt={2} fontSize={{ base: 'sm', md: 'md' }}>Only 141 Plots</Text>
+          <Text className='defaultPageParagraph' mt={2} fontSize={{ base: 'sm', md: 'md' }}>
+          Only 141 Plots</Text>
         </Box>
         
         {/* Third Image */}
@@ -62,7 +64,8 @@ const PlotsAvailability = () => {
             objectFit="contain"
             mx="auto"
           />
-          <Text color="green" mt={2} fontSize={{ base: 'sm', md: 'md' }}>32 Acres of Open Spaces</Text>
+          <Text className='defaultPageParagraph' mt={2} fontSize={{ base: 'sm', md: 'md' }}>
+          32 Acres of Open Spaces</Text>
         </Box>
       </Flex>
     </div>

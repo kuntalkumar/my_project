@@ -5,7 +5,7 @@ const LocateUsG = () => {
   return (
     <div id='location'>
 
-<Text fontSize="5xl" fontWeight={"bold"} textAlign="center" color="green" mb={4}>
+<Text className='pageHeading'>
 Locate Us</Text>
 
     <div>

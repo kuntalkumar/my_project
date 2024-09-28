@@ -4,9 +4,11 @@ import React from 'react';
 const Masterplan = () => {
   return (
     <div id='master' style={{ width: '100%', textAlign: 'center',marginTop:"20px" , marginBottom:12 }} >
-    <div style={{color:"green"}}>
-      <Text fontSize={"5xl"} fontWeight={"bold"}>Masterplan</Text>
-    <p>Nature-inspired living in every sq.ft</p>
+    <div>
+    <Text className='pageHeading'>
+    Masterplan</Text>
+    <p className='defaultPageParagraph'>
+    Nature-inspired living in every sq.ft</p>
     </div>
    
       <img 

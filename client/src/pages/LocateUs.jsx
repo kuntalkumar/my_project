@@ -14,13 +14,12 @@ const customIcon = new L.Icon({
   shadowSize: null,
 
 });
-
 const LocateUs = () => {
-  const position = [12.976750, 77.575280]; // lat and long change 
+  const position = [13.675618548412078,  77.83357176422378  ]; // lat and long change 
 
   return (
     <div id="location">
-      <Text fontSize="5xl" fontWeight={"bold"} textAlign="center" color="green" mb={4}>
+      <Text className='pageHeading'>
         Locate Us
       </Text>
 

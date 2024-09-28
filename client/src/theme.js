@@ -5,16 +5,15 @@ const theme = extendTheme({
     global: {
       // Set the background color for the entire application
       body: {
-        bg: "#b4dbb5",
+        bg: "#D8E3D4",
+        fontFamily: "Roboto, sans-serif", // Global font set to Roboto
       },
     },
-  }
-  // ,
-  // // Add custom fonts here
-  // fonts: {
-  //   body: "Roboto, sans-serif", // Font for the body
-  //   heading: "Georgia, serif",  // Font for headings
-  // },
+  },
+  fonts: {
+    body: "Roboto, sans-serif", // Roboto for body text
+    heading: "Roboto, sans-serif", // Roboto for headings
+  },
 });
 
 export default theme;
