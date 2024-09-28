@@ -14,6 +14,7 @@ import Facilities from './pages/Facilities';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import LocateUsG from './pages/LocateUsG';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -97,6 +98,8 @@ bg="white"
         <Clubhouse />
         <Facilities />
         <LocateUs />
+
+        {/* <LocateUsG/> */}
         <Footer />
 
         {/* Modal for EnquiryForm */}
