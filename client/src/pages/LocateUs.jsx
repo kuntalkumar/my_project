@@ -13,6 +13,19 @@ const img = "https://www.svgrepo.com/show/476893/marker.svg"; // Update this ima
 const locations = [
   { lat: 13.675618548412078, lng: 77.83357176422378 }, // Example: TerraGreen Farms
   { lat: 13.6756263, lng: 77.8335924 },
+  {lat:12.991415282640071, lng:77.5640441366946},
+  {lat:12.990698247152652, lng:77.56652672152927},
+  {lat:12.987289830433157, lng:77.56761920734118},
+  {lat:12.98342640302932, lng:77.56265737793792},
+
+
+  {lat:12.99053628083106,lng: 77.57080041893998},
+  {lat:12.98366002640793,lng:77.59758647607285},
+  {lat: 12.9824890778253,lng: 77.59226494324332},
+  {lat: 12.976968991105917,lng: 77.58333855199177 },
+  {lat:  12.978809033632464,lng: 77.564970785378 },
+  {lat:12.962248160807883, lng:77.57492714485089 }
+
 
 ];
 
@@ -27,7 +40,7 @@ const LocateUs = () => {
 
     // Add OpenStreetMap tiles
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 18,
+      maxZoom: 25,
     }).addTo(mapRef.current);
 
     // Create a custom icon

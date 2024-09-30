@@ -7,7 +7,7 @@ const Clubhouse = () => {
       <Text className='pageHeading' >
       Clubhouse Masterplan</Text>
       <img src="https://cdn.prod.website-files.com/619f269ed5aa1e062de9e2ce/667295810e4937572f4648c0_updated%20plan-p-2000.jpeg" alt="" 
-                style={{ width: '100%',height:"80%",margin:"auto", height: 'auto', objectFit: 'cover',marginTop:"10px" }} 
+                style={{ width: '100%',height:"95vh",margin:"auto", objectFit: 'cover',marginTop:"10px" }} 
 
       />
     </Box>

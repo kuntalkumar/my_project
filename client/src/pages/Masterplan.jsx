@@ -14,7 +14,7 @@ const Masterplan = () => {
       <img 
         src="https://cdn.prod.website-files.com/619f269ed5aa1e062de9e2ce/66aa5e3d7d5afedf81c6db99_master%20update3.png" 
         alt="Masterplan" 
-        style={{ width: '100%',height:"80%",margin:"auto", height: 'auto', objectFit: 'cover',marginTop:24}} 
+        style={{ width: '98%',height:"100vh",margin:"auto",  objectFit: 'cover',marginTop:24}} 
       />
     </div>
   );
