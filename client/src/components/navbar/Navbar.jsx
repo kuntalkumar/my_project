@@ -4,7 +4,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = ({ setIsOpen, isOpen }) => {
   return (
-    <Box bg="#1B4D3E" p={4} color="white" fontSize="lg" pt={2} fontFamily="'Poppins', sans-serif">
+    <Box bg="#1B4D3E" p={4} color="#D3D3D3" fontSize="lg" pt={2} fontFamily="'Poppins', sans-serif">
       <Flex justify="space-between" align="center">
         <Box fontSize="lg" fontWeight="bold">
           <ScrollLink to="home" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer" }}>
@@ -13,17 +13,17 @@ const Navbar = ({ setIsOpen, isOpen }) => {
         </Box>
         <Flex justifyContent="space-around" gap={5}>
           <div className='navText'>
-            <ScrollLink to="gallery" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer", color: 'white' }}>
+            <ScrollLink to="gallery" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer" }}>
               Gallery
             </ScrollLink>
           </div>
           <div className='navText'>
-            <ScrollLink to="master" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer", color: 'white' }}>
+            <ScrollLink to="master" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer" }}>
               Master Plan
             </ScrollLink>
           </div>
           <div className='navText'>
-            <ScrollLink to="location" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer", color: 'white' }}>
+            <ScrollLink to="location" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer"}}>
               Location
             </ScrollLink>
           </div>

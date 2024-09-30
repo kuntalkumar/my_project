@@ -1,20 +1,21 @@
 .pageHeading {
     color: #2C5F2D;
-    font-size: 3rem; /* Assuming 1xl = 1rem (adjust as needed) */
+    font-size: 3rem; 
     font-weight: bold;
     text-align: center;
-    font-family: 'Playfair Display', serif; /* Add your chosen heading font here */
+    font-family: 'Playfair Display', serif; 
 }
 
 .defaultPageParagraph {
     color: #333333;
-    font-family: 'Open Sans', sans-serif; /* Add your chosen body text font here */
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .navText{
 margin-top: 5px;
 margin-bottom: 0px;
 padding-bottom: 0px;
+color: #D3D3D3
 }
 .navText :hover{
     transform: scale(1.02);

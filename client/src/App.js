@@ -99,7 +99,7 @@ const App = () => {
         <Clubhouse />
         <Facilities />
         <div style={{display:"flex",justifyContent:"center",margin:"20px"}} >
-        <Button  onClick={() => setIsOpen(true)} bg={'#074f07'} _hover={{bg:"#011701"}} variant="solid" cursor={'pointer'}>
+        <Button  onClick={() => setIsOpen(true)} color={'white'} bg={'#074f07'} _hover={{bg:"#011701"}} variant="solid" cursor={'pointer'}>
           Download Brochure
           </Button>
         </div>
