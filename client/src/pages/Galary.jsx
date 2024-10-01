@@ -2,31 +2,31 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Center, Text } from '@chakra-ui/react';
+import { Text } from '@chakra-ui/react';
 
 const Galary = () => {
   const arr = [
     {
-      img: "https://www.unccd.int/sites/default/files/styles/towebp/public/2021-12/Land_Management_Restoration_Header_Img.jpg.webp"
+      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/c3e1de65-2580-49e8-af9b-f6fed5c2454e/WhatsApp+Image+2024-09-28+at+00.12.57+%281%29.jpeg"
     },
     {
-      img: "https://land.copernicus.eu/en/daren-37rhauu3u1a-unsplash.jpg/@@images/image/huge"
+      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/e7a81348-0f42-4507-ba8a-fa73d8c0dc81/WhatsApp+Image+2024-09-28+at+00.12.57+%282%29.jpeg "
     },
     {
-      img: "https://www.unccd.int/sites/default/files/styles/towebp/public/2021-12/Land_Degradation_Neutrality_Header_Img_0.jpg.webp"
+      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/e5a75ce5-fdbb-4dfc-b9b5-c3c4076d0468/WhatsApp+Image+2024-09-28+at+00.12.58+%282%29.jpeg "
     },
-    {
-      img: "https://www.99acres.com/microsite/articles/files/2022/11/West-Bengal-Land-Reforms-Act.jpg"
-    },
-    {
-        img:"https://www.bankrate.com/2022/09/01170817/How-to-sell-land.jpg"  
-      },
-      {
-        img:"https://www.landsrl.com/wp-content/uploads/2024/03/land-landgermany-essengreencapital-krupppark-phkassenberg-1-2400x1800.jpg"
-      },
-      {
-        img:"https://assets.weforum.org/article/image/GLWDNgzw3BLTLOXlMA1AJWNgtaIpl3RwDKf1QKSPbLo.jpg"
-      }
+    // {
+    //   img: "https://www.99acres.com/microsite/articles/files/2022/11/West-Bengal-Land-Reforms-Act.jpg"
+    // },
+    // {
+    //     img:"https://www.bankrate.com/2022/09/01170817/How-to-sell-land.jpg"  
+    //   },
+    //   {
+    //     img:"https://www.landsrl.com/wp-content/uploads/2024/03/land-landgermany-essengreencapital-krupppark-phkassenberg-1-2400x1800.jpg"
+    //   },
+    //   {
+    //     img:"https://assets.weforum.org/article/image/GLWDNgzw3BLTLOXlMA1AJWNgtaIpl3RwDKf1QKSPbLo.jpg"
+    //   }
   ];
 
   const settings = {

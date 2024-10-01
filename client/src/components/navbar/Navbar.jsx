@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Flex, Button } from '@chakra-ui/react';
 import { Link as ScrollLink } from 'react-scroll';
+import logo from '../asset/LOGO.png';
 
 const Navbar = ({ setIsOpen, isOpen }) => {
   return (
@@ -8,7 +9,7 @@ const Navbar = ({ setIsOpen, isOpen }) => {
       <Flex justify="space-between" align="center">
         <Box fontSize="lg" fontWeight="bold">
           <ScrollLink to="home" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer" }}>
-            My Logo
+     <img src={logo} alt="" width={"150px"} color='white'/>
           </ScrollLink>
         </Box>
         <Flex justifyContent="space-around" gap={5}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Flex, Box, Text } from '@chakra-ui/react';
-
+import logo from "../components/asset/LOGO.png"
 const Home = () => {
   return (
     <Box id="home"
@@ -18,11 +18,12 @@ const Home = () => {
       // color='yellow.800'  // Change text color for better visibility on background
     >
       <Box textAlign='center'  w={"45%"} mb={4}>
-        <Text fontSize='3xl' fontWeight='bold'>
-          Embrace Endless Natural Beauty Right at Your Doorstep
+        <Text fontSize='6xl' fontWeight='bold'>
+          Riverstone 
         </Text>
+        <div style={{border:"1px solid black", width:"400px" ,margin:"auto"}}></div>
         <Text fontSize='lg'>
-          RERA Approved Forest View Plots
+Chickballapur
         </Text>
       </Box>
 
@@ -37,7 +38,7 @@ const Home = () => {
         <Box fontSize="lg" fontWeight="bold">
 
             {/* <img src="https://www.svgrepo.com/show/476986/forest.svg" alt="" style={{borderRadius:"5px",width:"50px"}} /> */}
-            My Logo
+           <img src={logo} alt="Logo" width={"200px"}/>
       </Box>
             <Box textAlign='right'>
           <Text>Plot size 5,000 - 15,000 sq.ft</Text>

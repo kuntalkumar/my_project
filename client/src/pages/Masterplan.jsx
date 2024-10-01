@@ -12,7 +12,7 @@ const Masterplan = () => {
     </div>
    
       <img 
-        src="https://cdn.prod.website-files.com/619f269ed5aa1e062de9e2ce/66aa5e3d7d5afedf81c6db99_master%20update3.png" 
+        src="https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/d58a1838-9262-40f6-a0c5-5cc5f4e29ffd/photoshop+plan_27-09-2024+%281%29.jpg " 
         alt="Masterplan" 
         style={{ width: '98%',height:"100vh",margin:"auto",  objectFit: 'cover',marginTop:24}} 
       />
