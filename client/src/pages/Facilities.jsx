@@ -5,7 +5,7 @@ const Facilities = () => {
   return (
     <Box>
 <Flex justifyContent={'center'} className='defaultPageParagraph' fontSize={"2xl"} fontWeight={"bold"}>
-Open Air Amenities & Experiences
+ Amenities 
 </Flex>
     <Flex wrap="wrap" justify="space-around" align="center" m={12}>
       {/* First Box */}
