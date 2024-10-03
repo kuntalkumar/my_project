@@ -111,7 +111,7 @@ const App = () => {
         {/* Modal for EnquiryForm */}
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
-          <ModalContent mt={20} bg="#3c6148" color="white">
+          <ModalContent mt={20} bg="" color="white">
             <ModalHeader>Enquiry Form</ModalHeader>
             <ModalCloseButton />
             <ModalBody>

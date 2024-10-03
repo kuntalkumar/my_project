@@ -8,7 +8,7 @@ const Home = () => {
       backgroundSize='cover'
       backgroundPosition='center'
       backgroundRepeat='no-repeat'
-      height='100vh'
+      height='95vh'
       width='100%'
       display='flex'
       flexDirection='column'
