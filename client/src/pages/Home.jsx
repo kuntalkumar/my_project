@@ -1,6 +1,7 @@
 import React from 'react';
 import { Flex, Box, Text } from '@chakra-ui/react';
 import logo from "../components/asset/LOGO.png";
+import "../helper/style.css"
 
 const Home = () => {
   return (

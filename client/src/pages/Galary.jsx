@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Text } from '@chakra-ui/react';
 import "./page.css"
+import "../helper/style.css"
+
 
 const Gallery = () => {
   const arr = [
@@ -33,7 +35,9 @@ const Gallery = () => {
 
   return (
     <div id='gallery' style={{ margin:"auto" }}>
-      <Text className='pageHeading' fontSize="2xl" fontWeight="bold" textAlign="center" mb={4}>
+      <Text className='pageHeading'
+        fontSize={{ base: '2xl', md: '4xl', lg: '5xl' }} // Responsive font size
+        fontWeight="bold" textAlign="center" mb={4}>
         GALLERY
       </Text>
       <Slider {...settings}>

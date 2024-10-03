@@ -1,10 +1,15 @@
 import { Box, Text, Image, Flex } from '@chakra-ui/react';
 import React from 'react';
+import "../helper/style.css"
+
 
 const Facilities = () => {
   return (
     <Box>
-      <Flex justifyContent={'center'} className='defaultPageParagraph' fontSize={"2xl"} fontWeight={"bold"}>
+      <Flex justifyContent={'center'} 
+      className='defaultPageParagraph' 
+      fontSize={{ base: '2xl', md: '4xl', lg: '5xl' }} // Responsive font size
+      fontWeight={"bold"}>
         Amenities 
       </Flex>
       <Flex wrap="wrap" justify="space-around" align="center" m={12}>

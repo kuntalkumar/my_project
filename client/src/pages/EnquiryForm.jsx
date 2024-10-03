@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, FormControl, FormLabel, Input, Button, useToast } from '@chakra-ui/react';
 import emailjs from 'emailjs-com';
+import "../helper/style.css"
 
 const EnquiryForm = () => {
   const toast = useToast();

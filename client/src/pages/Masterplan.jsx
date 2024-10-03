@@ -1,10 +1,13 @@
 import { Text, Box } from '@chakra-ui/react';
 import React from 'react';
+import "../helper/style.css"
 
 const Masterplan = () => {
   return (
     <Box id='master' width='100%' textAlign='center' mt={8} mb={3}>
-      <Text className='pageHeading' fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }} fontWeight='bold'>
+      <Text className='pageHeading'
+        fontSize={{ base: '2xl', md: '4xl', lg: '5xl' }} // Responsive font size
+        fontWeight='bold'>
         Masterplan
       </Text>
       <Text className='defaultPageParagraph' fontSize={{ base: 'md', md: 'lg' }} mb={4}>

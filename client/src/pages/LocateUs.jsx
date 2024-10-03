@@ -5,6 +5,7 @@ import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet.markercluster";
 import { Text } from '@chakra-ui/react';
+import "../helper/style.css"
 
 // Example image for custom markers
 const img = "https://www.svgrepo.com/show/476893/marker.svg"; // Update this image URL if needed
