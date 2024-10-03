@@ -14,20 +14,26 @@ import Facilities from './pages/Facilities';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import LocateUsG from './pages/LocateUsG';
 import "./helper/style.css"
+
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
   const onClose = () => setIsOpen(false);
+
+  const buttonStyle = {
+    w: "65%",
+    bg: "#ede1f5",
+    _hover: { bg: "teal" },
+    color: "black",
+    variant: "solid",
+    cursor: "pointer"
+  };
 
   return (
     <ChakraProvider theme={theme}>
       <Box gap={10}>
         <Navbar setIsOpen={setIsOpen} isOpen={isOpen} />
         <Home />
-
-
-
 
         <Flex 
           position="fixed" 
@@ -36,76 +42,44 @@ const App = () => {
           flexDirection="column" 
           alignItems="center" 
           gap={2}
-          zIndex="1500"  
-          >
-        <Button 
-           w={"65%"}
-
-            bg="#ede1f5" 
-            _hover={{ bg: "teal" }} 
-            // onClick={() => setIsOpen(true)} 
-            color="black"
-            variant="solid"
-            cursor="pointer"
-          >
-          <a href="tel:+917908295742">
-            <FontAwesomeIcon icon={faPhone} size="lg" color="blue" />
-          </a>
+          zIndex="1500"
+        >
+          <Button {...buttonStyle}>
+            <a href="tel:+917908295742" aria-label="Call us">
+              <FontAwesomeIcon icon={faPhone} size="lg" color="blue" />
+            </a>
           </Button>
 
-          <Button 
-                    w={"65%"}
-
-            bg="#ede1f5" 
-            _hover={{ bg: "teal" }} 
-            // onClick={() => setIsOpen(true)} 
-            color="black"
-            variant="solid"
-            cursor="pointer"
-          >
-         <a
-    href="https://wa.me/917908295742"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-
-          <FontAwesomeIcon icon={faWhatsapp} size="xl" style={{ margin: '0 8px' }} color='green' />
-  </a>
+          <Button {...buttonStyle}>
+            <a
+              href="https://wa.me/917908295742"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp us"
+            >
+              <FontAwesomeIcon icon={faWhatsapp} size="xl" style={{ margin: '0 8px' }} color='green' />
+            </a>
           </Button>
 
-
-          <Button 
-             w={"65%"}
-
-             bg="#ede1f5" 
-            _hover={{ bg: "teal" }} 
-            onClick={() => setIsOpen(true)} 
-            color="black"
-            variant="solid"
-            cursor="pointer">
-            <img src="https://www.svgrepo.com/show/308408/article-story-report-piece.svg" alt="" style={{width:"50px"}}/>
+          <Button {...buttonStyle} onClick={() => setIsOpen(true)}>
+            <img src="https://www.svgrepo.com/show/308408/article-story-report-piece.svg" alt="Enquiry Form" style={{ width: "50px" }} />
           </Button>
-          
         </Flex>
-
-
-
-
-
 
         <PlotsAvailability />
         <Galary />
         <Masterplan />
         <Clubhouse />
         <Facilities />
-        <div style={{display:"flex",justifyContent:"center",margin:"20px"}} >
-        <Button  onClick={() => setIsOpen(true)} color={'white'} bg={'#074f07'} _hover={{bg:"#011701"}} variant="solid" cursor={'pointer'}>
-          Download Brochure
+
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <Button w={"250px"} h={"50px"} onClick={() => setIsOpen(true)} color={'white'} bg={'#074f07'} _hover={{ bg: "#011701" }} p={"10px"} variant="solid" cursor={'pointer'}>
+            Download
+             Brochure
           </Button>
         </div>
-        <LocateUs />
 
-        {/* <LocateUsG/> */}
+        <LocateUs />
         <Footer />
 
         {/* Modal for EnquiryForm */}

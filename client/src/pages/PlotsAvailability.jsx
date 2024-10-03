@@ -4,16 +4,21 @@ import React from 'react';
 const PlotsAvailability = () => {
   return (
     <div>
-      <Flex justify="space-around" align="center" m={12}>
+      <Flex 
+        direction={{ base: 'column', md: 'row' }} // Stack vertically on mobile, horizontally on larger screens
+        justify="space-around" 
+        align="center" 
+        m={12}
+        gap={{ base: 4, md: 8 }} // Set gap between boxes (4 for mobile, 8 for larger screens)
+      >
         {/* First Image */}
         <Box 
           textAlign="center" 
-          boxSize={{ base: '120px', md: '180px' }} 
+          boxSize={{ base: '180px', md: '180px' }} 
           p={4} 
           boxShadow="sm" 
           borderRadius="md" 
-          bg="#f2f7f4" 
-          // Set background color to white
+          bg="#f2f7f4"
         >
           <Image 
             src="https://www.svgrepo.com/show/241430/map-maps-and-location.svg"
@@ -23,18 +28,18 @@ const PlotsAvailability = () => {
             mx="auto"
           />
           <Text className='defaultPageParagraph' mt={2} fontSize={{ base: 'sm', md: 'md' }}>
-          54 Acres</Text>
+            54 Acres
+          </Text>
         </Box>
         
         {/* Second Image */}
         <Box 
           textAlign="center" 
-          boxSize={{ base: '120px', md: '180px' }} 
+          boxSize={{ base: '180px', md: '180px' }} 
           p={4} 
           boxShadow="sm" 
           borderRadius="md" 
-          bg="#f2f7f4" 
-          // Set background color to white
+          bg="#f2f7f4"
         >
           <Image 
             src="https://www.svgrepo.com/show/377309/drop-area.svg"
@@ -44,18 +49,18 @@ const PlotsAvailability = () => {
             mx="auto"
           />
           <Text className='defaultPageParagraph' mt={2} fontSize={{ base: 'sm', md: 'md' }}>
-          Only 141 Plots</Text>
+            Only 141 Plots
+          </Text>
         </Box>
         
         {/* Third Image */}
         <Box 
           textAlign="center" 
-          boxSize={{ base: '120px', md: '180px' }} 
+          boxSize={{ base: '180px', md: '180px' }} 
           p={4} 
           boxShadow="sm" 
           borderRadius="md" 
-          bg="#f2f7f4" 
-          // Set background color to white
+          bg="#f2f7f4"
         >
           <Image 
             src="https://www.svgrepo.com/show/481600/forest.svg"
@@ -65,7 +70,8 @@ const PlotsAvailability = () => {
             mx="auto"
           />
           <Text className='defaultPageParagraph' mt={2} fontSize={{ base: 'sm', md: 'md' }}>
-          32 Acres of Open Spaces</Text>
+            32 Acres of Open Spaces
+          </Text>
         </Box>
       </Flex>
     </div>
