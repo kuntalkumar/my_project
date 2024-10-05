@@ -12,6 +12,7 @@ const Facilities = () => {
       fontWeight={"bold"}>
         Amenities 
       </Flex>
+        <Flex className='defaultPageParagraph' fontSize={{ base: 'md', md: 'lg' }} justifyContent={"center"}>Luxury Living with Unmatched Features</Flex>
       <Flex wrap="wrap" justify="space-around" align="center" m={12}>
         {/* Cards Array */}
         {[
@@ -26,7 +27,7 @@ const Facilities = () => {
           { src: "https://www.svgrepo.com/show/29884/river.svg", alt: "Modern Landscaping", label: "Modern Landscaping" },
           { src: "https://www.svgrepo.com/show/212752/pull-up-gym.svg", alt: "Outdoor Gym", label: "Outdoor Gym" },
           { src: "https://www.svgrepo.com/show/286339/fountain.svg", alt: "Fountains", label: "Fountains" },
-          { src: "https://www.svgrepo.com/show/369826/dog.svg", alt: "Dog Park", label: "Dog Park" },
+          { src: "https://www.svgrepo.com/show/359771/dog-park.svg", alt: "Dog Park", label: "Dog Park" },
         ].map((facility, index) => (
           <Box 
             key={index}

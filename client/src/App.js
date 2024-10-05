@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import "./helper/style.css"
+import Overview from './pages/Overview';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,6 +67,7 @@ const App = () => {
           </Button>
         </Flex>
 
+        {/* <Overview/> */}
         <PlotsAvailability />
         <Galary />
         <Masterplan />

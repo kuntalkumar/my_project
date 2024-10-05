@@ -4,8 +4,8 @@ import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet.markercluster";
-import { Text } from '@chakra-ui/react';
-import "../helper/style.css"
+import { Text } from "@chakra-ui/react";
+import "../helper/style.css";
 
 // Example image for custom markers
 const img = "https://www.svgrepo.com/show/476893/marker.svg"; // Update this image URL if needed
@@ -22,7 +22,7 @@ const locations = [
   { lat: 12.9824890778253, lng: 77.59226494324332 },
   { lat: 12.976968991105917, lng: 77.58333855199177 },
   { lat: 12.978809033632464, lng: 77.564970785378 },
-  { lat: 12.962248160807883, lng: 77.57492714485089 }
+  { lat: 12.962248160807883, lng: 77.57492714485089 },
 ];
 
 const LocateUs = () => {
@@ -32,7 +32,10 @@ const LocateUs = () => {
     if (mapRef.current !== null) return; // Prevent re-initializing the map
 
     // Initialize the map
-    mapRef.current = L.map("map").setView([13.675618548412078, 77.83357176422378], 13);
+    mapRef.current = L.map("map").setView(
+      [13.675618548412078, 77.83357176422378],
+      13
+    );
 
     // Add OpenStreetMap tiles
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -51,7 +54,9 @@ const LocateUs = () => {
 
     // Add markers to the cluster group with the custom icon
     locations.forEach((location) => {
-      const marker = L.marker([location.lat, location.lng], { icon: customIcon });
+      const marker = L.marker([location.lat, location.lng], {
+        icon: customIcon,
+      });
       marker.bindPopup(`
         <span>
           View on Google Maps
@@ -75,7 +80,10 @@ const LocateUs = () => {
   return (
     <div id="location">
       <Text className="pageHeading">Locate Us</Text>
-      <div id="map" style={{ height: "450px", width: "100%", maxHeight: "80vh" }}></div>
+      <div
+        id="map"
+        style={{ height: "450px", width: "100%", maxHeight: "80vh" }}
+      ></div>
     </div>
   );
 };
