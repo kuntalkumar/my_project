@@ -71,7 +71,7 @@ const App = () => {
         <PlotsAvailability />
         <Galary />
         <Masterplan />
-        {/* <Clubhouse /> */}
+        <Clubhouse />
         <Facilities />
 
         <div style={{ display: "flex", justifyContent: "center" }}>
