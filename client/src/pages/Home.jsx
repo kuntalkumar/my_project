@@ -26,14 +26,13 @@ const Home = () => {
           fontWeight="bold"
           color="white"
         >
-          An Oasis of Lush Greens and Scenic Beauty
-        </Text>
+Riverstone        </Text>
         <div
           style={{ border: "1px solid white", width: "200px", margin: "auto" }}
         ></div>
         <Text fontSize={{ base: "md", lg: "lg" }} color="white">
           {" "}
-          Riverstone Chickballapur
+           Chickballapur
         </Text>
       </Box>
 
@@ -50,7 +49,8 @@ const Home = () => {
         {/* Logo */}
 
         {/* Plot Information */}
-        <Box textAlign={{ base: "center", md: "right" }}>
+        
+        <Box textAlign={{ base: "center", md: "left" }}>
           <Text fontSize={{ base: "sm", lg: "lg" }}>No of plots - 1200 +</Text>
           <Text fontSize={{ base: "sm", lg: "lg" }}>
             Total size - 300 acers
