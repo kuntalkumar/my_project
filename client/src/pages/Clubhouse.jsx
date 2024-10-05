@@ -18,7 +18,7 @@ const Clubhouse = () => {
       {/* Image */}
       <Image
         // src="https://cdn.prod.website-files.com/619f269ed5aa1e062de9e2ce/667295810e4937572f4648c0_updated%20plan-p-2000.jpeg"  // intentionally remove pic of club hpuse
-        src="https://cdn.prod.website-files/667295810e4937572f4648c0_updated%20pl-p-2000.jpeg"
+        src=""
 
         alt="Clubhouse Masterplan image asset not available "
         width="100%"
