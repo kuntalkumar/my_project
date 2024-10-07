@@ -45,7 +45,7 @@ const Navbar = ({ setIsOpen }) => {
         {/* Logo */}
         <Box fontSize="lg" fontWeight="bold">
           <ScrollLink to="home" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer" }}>
-            <img src={logo} alt="Logo" width={"150px"} />
+            <img src={logo} alt="Logo"  />
           </ScrollLink>
         </Box>
 
