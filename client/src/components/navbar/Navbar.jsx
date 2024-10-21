@@ -44,13 +44,16 @@ const Navbar = ({ setIsOpen }) => {
       <Flex justify="space-between" align="center">
         {/* Logo */}
         <Box fontSize="lg" fontWeight="bold">
-          <ScrollLink to="home" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer" }}>
-            <img src={logo} alt="Logo"  />
-          </ScrollLink>
+          {/* <ScrollLink to="home" smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer" }}> */}
+       <a href="../Dashboard">
+       <img src={logo} alt="Logo"  />
+       </a>    
+          {/* </ScrollLink> */}
         </Box>
 
         {/* Desktop Navigation */}
         <Flex display={["none", "none", "flex"]} justifyContent="space-around" gap={5}>
+
           {['gallery', 'master', 'location'].map((section) => (
             <div key={section} className='navText'>
               <ScrollLink to={section} smooth={true} duration={500} style={{ textDecoration: 'none', cursor: "pointer" }}>
