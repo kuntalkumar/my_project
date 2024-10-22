@@ -57,9 +57,9 @@ const DashboardHome = () => {
               style={{
                 width: "100%",
                 height: "auto", // Responsive height
-                maxHeight: "90vh", // Maximum height
+                maxHeight: "100vh", // Maximum height
                 objectFit: "cover",
-                marginTop:"10px"
+                // marginTop:"10px"
               }}
               onError={(e) => {
                 e.target.src = "fallback-image-url.jpg";
