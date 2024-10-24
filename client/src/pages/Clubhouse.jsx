@@ -9,13 +9,13 @@ import "../helper/style.css";
 const Clubhouse = () => {
   const arr = [
     {
-      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/c3e1de65-2580-49e8-af9b-f6fed5c2454e/WhatsApp+Image+2024-09-28+at+00.12.57+%281%29.jpeg",
+      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/cf7261ef-b74d-4d97-b48a-7dd055a47a6a/WhatsApp+Image+2024-10-10+at+4.29.11+PM.jpeg,
     },
     {
-      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/e7a81348-0f42-4507-ba8a-fa73d8c0dc81/WhatsApp+Image+2024-09-28+at+00.12.57+%282%29.jpeg",
+      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/3406d1f2-c0f0-4243-980b-38989e02cc9a/WhatsApp+Image+2024-10-22+at+5.21.27+PM.jpeg",
     },
     {
-      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/e5a75ce5-fdbb-4dfc-b9b5-c3c4076d0468/WhatsApp+Image+2024-09-28+at+00.12.58+%282%29.jpeg",
+      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/7f31be93-c61b-4ade-b4ab-b12b0756a0d7/WhatsApp+Image+2024-10-22+at+5.21.26+PM.jpeg",
     },
     // Additional images can be added here
   ];
