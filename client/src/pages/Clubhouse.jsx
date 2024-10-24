@@ -9,7 +9,7 @@ import "../helper/style.css";
 const Clubhouse = () => {
   const arr = [
     {
-      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/cf7261ef-b74d-4d97-b48a-7dd055a47a6a/WhatsApp+Image+2024-10-10+at+4.29.11+PM.jpeg,
+      img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/cf7261ef-b74d-4d97-b48a-7dd055a47a6a/WhatsApp+Image+2024-10-10+at+4.29.11+PM.jpeg",
     },
     {
       img: "https://kelsa-clients-production.s3.ap-south-1.amazonaws.com/uploads/accounts/5/pipelines/10/files/3406d1f2-c0f0-4243-980b-38989e02cc9a/WhatsApp+Image+2024-10-22+at+5.21.27+PM.jpeg",
